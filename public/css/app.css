@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main h1 {
+  width: 100%;
+  text-align: center;
+  margin: 30px;
+  font-size: 35px;
+}
+
+main .cards {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+main .cards .container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main .cards .container .card {
+  border: 1px solid darkgray;
+  margin: 10px auto;
+  padding: 10px;
+}
+
